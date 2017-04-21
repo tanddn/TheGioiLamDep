@@ -13,19 +13,10 @@
 }
 
 .top-bar {
-    padding: 10px 0px;
+    padding: 2px 0px;
     background-color: #E0E0E0;
-    height: 65px;
+    height: 30px;
 }
-
-    .top-bar .logo-img {
-        max-height: 45px;
-    }
-
-        .top-bar .logo-img img {
-            width: 100%;
-            height: 100%;
-        }
 
     .top-bar .search-bar {
         padding: 0px 20px;
@@ -33,16 +24,18 @@
     }
 
         .top-bar .search-bar input, .top-bar .search-bar button {
-            margin-top: 5px;
             padding: 0px 20px;
+            height: 26px;
         }
 
             .top-bar .search-bar button i {
-                font-size: 20px;
+                font-size: 16px;
             }
 
     .top-bar .function-bar {
+        padding-top: 5px;
         font-size: 12px;
+        display: inline-flex;
     }
 
         .top-bar .function-bar .subfunction-bar {
@@ -51,17 +44,17 @@
             height: 42px;
         }
 
-        .top-bar .function-bar .subfunction-bar:hover {
-            color: #ec174c !important;
-            cursor: pointer;
-        }
+            .top-bar .function-bar .subfunction-bar:hover {
+                color: #ec174c !important;
+                cursor: pointer;
+            }
 
             .top-bar .function-bar .subfunction-bar .item {
                 display: inline-flex;
             }
 
                 .top-bar .function-bar .subfunction-bar .item i {
-                    font-size: 35px;
+                    font-size: 16px;
                     margin-right: 10px;
                 }
 
@@ -106,6 +99,22 @@
         display: none;
     }
 }
+
+.top-navbar {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+    .top-navbar .main-nav .nav-brand .logo-img {
+    }
+
+        .top-navbar .main-nav .nav-brand .logo-img img {
+            width: 220px;
+            height: auto;
+        }
+
+    .top-navbar .main-nav #main-menu {
+        margin-top: 8px;
+    }
 
 .top-after {
     margin-top: 125px;
@@ -898,6 +907,6 @@ footer {
     height: 100%;
 }
 
-.owl-carousel .owl-dots{
+.owl-carousel .owl-dots {
     display: none;
 }
